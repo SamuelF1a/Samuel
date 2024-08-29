@@ -1,10 +1,10 @@
 function setup() {
   createCanvas(600, 400);
-background("#AADEE4");
+background("darkblue");
 }
   function draw(){
   stroke("black")
-  fill("#3F51B5")
+  fill("blue")
   
   if(mouseIsPressed){
   rect(mouseX,mouseY,100,100);
